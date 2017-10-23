@@ -1,0 +1,158 @@
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/include" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/include" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/TKLiveSync/include" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseStorage/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1" "-D" "PB_FIELD_32BIT=1" "-D" "PB_NO_PACKED_STRUCTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/Library/Frameworks"
+ignoring duplicate directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/include
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/TKLiveSync/include
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseStorage/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include
+ /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers" "-iquote" "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-isystem" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/include" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/include" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal" "-I" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/TKLiveSync/include" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library" "-F/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseStorage/Frameworks" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/" "-F/Users/rpn8fe/workspace/sumoplus/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1" "-D" "PB_FIELD_32BIT=1" "-D" "PB_NO_PACKED_STRUCTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin17.0.0
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework/Headers"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/Library/Frameworks"
+ignoring duplicate directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/include
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal/TKLiveSync/include
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GTMSessionFetcher (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/IQKeyboardManager (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/Protobuf (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/leveldb-library (framework directory)
+ /Users/rpn8fe/Library/Developer/Xcode/DerivedData/sumoplus-hlglfwwlnazzilakrdkteqxuotcl/Build/Products/Debug-iphonesimulator/nanopb (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseStorage/Frameworks (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/internal (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public
+ /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/Headers/Public/Firebase
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include
+ /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:1:
+In file included from /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.h:8:
+In file included from /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:128:
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUUID.h:26:49: error: nullability specifier '_Nullable' cannot be applied to non-pointer type 'uuid_t' (aka 'unsigned char [16]')
+- (instancetype)initWithUUIDBytes:(const uuid_t _Nullable)bytes;
+                                                ^
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUUID.h:29:30: error: nullability specifier '_Nonnull' cannot be applied to non-pointer type 'uuid_t' (aka 'unsigned char [16]')
+- (void)getUUIDBytes:(uuid_t _Nonnull)uuid;
+                             ^
+In file included from umbrella.h:506:
+In file included from /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.h:12:
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreML.framework/Headers/MLFeatureDescription.h:41:12: error: attributes may not be specified on a category
+@interface MLFeatureDescription (MLFeatureValueConstraints)
+           ^
+In file included from umbrella.h:510:
+In file included from /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h:3:
+In file included from /Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h:1:
+/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:60:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, readwrite) FIRAnalyticsConfiguration *analyticsConfiguration;
+^
+/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:60:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:572:
+In file included from /Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/leveldb.framework/Headers/leveldb-library-umbrella.h:14:
+In file included from /Users/rpn8fe/workspace/sumoplus/platforms/ios/build/emulator/leveldb.framework/Headers/cache.h:22:
+/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/leveldb-library/include/leveldb/slice.h:21:10: fatal error: 'string' file not found
+#include <string>
+         ^
+/Users/rpn8fe/workspace/sumoplus/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCoreDiagnostics.framework/Modules/module.modulemap:3:10: error: inferred submodules require a module with an umbrella
+  module * { export *}
+         ^
+2 warnings and 5 errors generated.
